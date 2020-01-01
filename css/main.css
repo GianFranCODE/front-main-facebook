@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #4267b2;
+  height: 82px;
+  width: 100%;
+}
+header .elements-header {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+header .elements-header section {
+  display: inline-block;
+}
+
+header .elements-header .header-left {
+  width: 20%;
+}
+
+header .elements-header .header-right {
+  justify-self: right;
+  width: 40%;
+}
+
+header .elements-header .header-right div {
+  display: inline-block;
+}
+
+header .elements-header .header-left h1 {
+  color: white;
+  font-size: 40px;
+}
+
+header .elements-header .header-right h5 {
+  color: white;
+}
